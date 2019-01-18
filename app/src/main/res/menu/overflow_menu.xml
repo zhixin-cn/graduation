@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/toolbar_r_img"
+        android:title="设置"
+        app:showAsAction="ifRoom"
+        >
+        <!-- item包含menu表示该menu是item下的子菜单 -->
+        <menu>
+            <!-- 将group中的菜单项放于一个组里面 -->
+            <group>
+                <item android:id="@+id/first"
+                    android:title="设置起点"
+                    app:showAsAction="ifRoom"
+                    />
+                <item android:id="@+id/second"
+                    android:title="显示/隐藏取点"
+                    app:showAsAction="ifRoom"
+                    />
+                <item android:id="@+id/third"
+                    android:title="设置开始方向"
+                    app:showAsAction="ifRoom"/>
+                <item android:id="@+id/fourth"
+                    android:title="打开/关闭调试模式"
+                    app:showAsAction="ifRoom"/>
+                <item android:id="@+id/fifth"
+                    android:title="设置步长"
+                    app:showAsAction="ifRoom"/>
+                <item android:id="@+id/sixth"
+                    android:title="设置灵敏度"
+                    app:showAsAction="ifRoom"/>
+            </group>
+        </menu>
+    </item>
+</menu>

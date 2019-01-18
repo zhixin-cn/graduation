@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/getPointLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="150dp"
+    android:minWidth="120dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingBottom="30dp"
+    android:paddingTop="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="X:"
+                android:textColor="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="x坐标"
+                android:inputType="number"
+                android:minHeight="45dp"
+                android:text="500"
+                android:textColor="@color/steps"
+                android:textColorHint="@color/colorPrimary" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="Y:"
+                android:textColor="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="y坐标"
+                android:inputType="number"
+                android:minHeight="45dp"
+                android:text="500"
+                android:textColor="@color/steps"
+                android:textColorHint="@color/colorPrimary" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:minHeight="30dp"
+        android:text="OK" />
+
+
+</LinearLayout>
